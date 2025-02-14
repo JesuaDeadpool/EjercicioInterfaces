@@ -9,15 +9,15 @@ namespace EjercicioInterfaces
     public interface IOperaciones
     {
 
-        public double Perimetro();
+        public double SemiPerimetroTriangulo();
 
-        public double Area();
+        public double AreaRombo();
 
-        public double Volumen();
+        public double VolumenCilindro();
 
-        public double Longitud();
+        public double LongitudCircunferencia();
 
-        public double Diametro(); 
+        public double DiametroCirculo(); 
 
 
     }
