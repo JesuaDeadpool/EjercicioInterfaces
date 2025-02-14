@@ -4,7 +4,7 @@ using EjercicioInterfaces;
 
 ///<summary>
 ///autor: Jeua Pavon 
-///commit: Crear Repositorio
+///commit: commit Final
 ///</summary>
 Operaciones operaciones = new Operaciones();
 
