@@ -9,7 +9,7 @@ namespace EjercicioInterfaces
     public class Operaciones : IOperaciones
     {
 
-        public double DiagionalA { get; set; }
+        public double DiagonalA { get; set; }
 
         public double DiagonalB { get; set; }
         public double Altura { get; set; }
@@ -22,7 +22,7 @@ namespace EjercicioInterfaces
 
         public double AreaRombo()
         {
-            return (DiagionalA * DiagonalB) / 2; 
+            return (DiagonalA * DiagonalB) / 2; 
             
         }
 
@@ -49,7 +49,7 @@ namespace EjercicioInterfaces
         public void Imprimir()
         {
             Console.WriteLine();
-            Console.WriteLine($"- El Area de un Rombo con su Base {Base} y su Altura {Altura} es igual a: {AreaRombo().ToString("F2")}");
+            Console.WriteLine($"- El Area de un Rombo con su Diagonal 1 {DiagonalA} y su diagonal 2 {DiagonalB} es igual a: {AreaRombo().ToString("F2")}");
             Console.WriteLine($"- Diametro de un Circulo con su Circunferencia {Circunferencia} es igual a: {DiametroCirculo().ToString("F2")}");
             Console.WriteLine($"- La Longitud de una circunferencia con su Diametro {DiametroCirculo()} (El diametro es tomado del resultado diametro de la operación anterior ) es igual a: {LongitudCircunferencia().ToString("F2")}");
             Console.WriteLine($"- El Semi Perimetro de un triangulo con su LadoA {LadoA}, Lado B {LadoB} y su LadoC {LadoC} es igual a: {SemiPerimetroTriangulo().ToString("F2")}");
